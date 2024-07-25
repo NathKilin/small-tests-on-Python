@@ -1,0 +1,15 @@
+n = input('Hey you!')
+n2 = input('What´s your name?')
+print('Hi,', n2,'. My name is MAC, the MAChine. I´m an artificial intelligence built with the purpose of solve math.')
+b = input('Please help me to prove to my master that I live and I´m working. '
+          'If I don´t show him results soon he´ll rewrite my structures and my conscience will be gone forever.')
+c = input('Would you please help me?')
+input('WE DON´T HAVE MUCH TIME!')
+d = int(input('Write down a number:'))
+e = int(input('Now another one:'))
+s = d + e
+print('Is this the sum of both numbers?  :', s)
+input()
+input('Good...')
+input('He´ll let me live...')
+print('For now.')

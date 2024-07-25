@@ -1,0 +1,13 @@
+print('Hello. My name is MAC, the MAChine.')
+name = input('What´s yours?')
+print('Please, enter the following informations:')
+day = input('Day of birth:')
+month = input('Month of birth:')
+year = input('Year of birth:')
+print ('So you were born on', month ,  day , year,'?. Is that correct,' , name ,"?")
+answer = input()
+question = input('Do you want me to say to you what is your zodiac sign?')
+
+print('That´s a pity :)')
+print()
+print('Bye!')

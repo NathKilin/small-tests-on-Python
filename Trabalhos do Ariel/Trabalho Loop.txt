@@ -1,0 +1,46 @@
+
+on = True
+option = ""
+def menu():
+    print("Hello! Please select the operator you would like to use.\nFor addition,       please enter 1\nFor "
+          "subtraction,    please enter 2\nFor multiplication, please enter 3\nFor division,       Please enter 4")
+    global option
+    option = input("I pick: ")
+
+menu()
+
+while on:
+    if option == "1":
+        print("You've selected Addition.")
+        num1 = (input("Please enter the first number: "))
+        if num1 == "back":
+            menu()
+        else:
+            num2 = float(input("Please enter the second number: "))
+            print(float(num1) + num2)
+    elif option == "2":
+        print("You've selected Subtraction.")
+        num1 = (input("Please enter the first number: "))
+        if num1 == "back":
+            menu()
+        else:
+            num2 = float(input("Please enter the second number: "))
+            print(float(num1) - num2)
+    elif option == "3":
+        print("You've selected Multiplication.")
+        num1 = (input("Please enter the first number: "))
+        if num1 == "back":
+            menu()
+        else:
+            num2 = float(input("Please enter the second number: "))
+            print(float(num1) * num2)
+    elif option == "4":
+        print("You've selected Division")
+        num1 = (input("Please enter the first number: "))
+        if num1 == "back":
+            menu()
+        else:
+            num2 = float(input("Please enter the second number: "))
+            print(float(num1) / num2)
+    else:
+        exit
